@@ -18,7 +18,7 @@ function alterarStatus(id) {
         botao.classList.add('dashboard__item__button--return');
     }
 
-    contarJogosAlugados(); // Atualiza na tela
+    contarJogosAlugados();
 }
 
 function contarJogosAlugados() {
@@ -46,6 +46,13 @@ function alterarStatus(id) {
         botao.classList.add('dashboard__item__button--return');
     }
 
+    contarJogosAlugados();
+}
+
+function contarJogosAlugados() {
+    const alugados = document.querySelectorAll('.dashboard__item__img--rented');
+    const contador = document.getElementById('contador-alugados');
+    contador.textContent = `Jogos alugados: ${alugados.length}`;
 }
 
 
