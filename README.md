@@ -1,4 +1,4 @@
-<h1>Alugames(Alura)</h1>
+<h1>AluGames(Alura)</h1>
 <p></p>
 
 <h3>🟢Curso Base</h3>
@@ -12,7 +12,7 @@
 </p>
 <h2>Resumo</h2>
 
-<h4>Começo analisando o código HTML da página para compreender o que sera feito. Em seguida, seleciono os elementos necessários com as funções `document.querySelector()` ou `document.getElementById()`, armazenando-os em variáveis para facilitar o acesso. Com esses elementos, posso manipular suas classes por meio da propriedade `classList`, permitindo verificar se uma classe existe (`contains()`), adicionar (`add()`) ou remover (`remove()`) conforme necessário. Também é possível modificar o texto exibido em um elemento usando a propriedade `textContent`. Para implementar funcionalidades, como alterar o status de um jogo, utilizo estruturas condicionais `if/else`, que permitem executar ações diferentes de acordo com a situação.</h4>
+<h4>Começo analisando o código HTML da página para compreender o que será feito. Em seguida, seleciono os elementos necessários com as funções <ins>document.querySelector()</ins> ou <ins>document.getElementById()</ins>, armazenando-os em variáveis para facilitar o acesso. Com esses elementos, posso manipular suas classes por meio da propriedade <ins>classList</ins>, permitindo verificar a classe  <ins>contains()</ins> existe, adicionar <ins>add()</ins> ou remover <ins>remove()</ins> conforme necessário. Também é possível modificar o texto exibido em um elemento usando a propriedade <ins>textContent</ins>. Para implementar funcionalidades, como alterar o status de um jogo, utilizo estruturas condicionais <ins>if/else</ins>, que permitem executar ações diferentes de acordo com a situação.Emplementando a mais com o desafio <ins>Hora da pratica</ins>, adicionei ao site duas funções: uma confirmação ao devolver um jogo e a informação sobre quantos jogos foram alugados.</h4>
 
 ## 👨‍💻Tecnologias
 <div>
